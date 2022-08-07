@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>replit</title>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css" />
+  <link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body class = "container">
+  <section class="hero is-white">
+  <div class="hero-body">
+    <div class="">
+<!--       happy -->
+      <p class="title">
+        My Axolotl
+      </p>
+      <p class="subtitle">
+        Keep it alive!
+      </p>
+    </div>
+  </div>
+</section>
+  <section>
+    <img id= "axolotl" src="https://c1-ebgames.eb-cdn.com.au/merchandising/images/packshots/a552c18423b3423e8a1983f37fdd02b2_Large.jpg" alt="picture" width="600" height="600"> 
+      
+  </section>
+  <div class="ml-4">
+<!--  petting button-->
+    <button id="button2" class="button is-large">
+            Click to pet the axolotl!
+    </button>
+<!--     food button -->
+    <button id="button1" class="button is-large">
+            Click to feed the axolotl!
+    </button>
+  </div>
+  <section>
+<!--     health bar -->
+    <p class="title"></p>
+    <p class = "mx-4" class = "title">Health Bar</p>
+    <progress id= "health bar" class="progress is-success" value="100" max="100">%</progress>
+    <p class = "mx-4" class = "title">Happiness Bar</p>
+<!--     happiness bar -->
+    <progress id= "happy bar" class="progress is-warning" value="100" max="100">%</progress>
+<!--     energy bar -->
+    <p class = "mx-4" class = "title">Energy Bar</p>
+    <progress id= "energy bar" class="progress is-info" value="100" max="100">%</progress>
+    <h6>.</h6>
+  </section>
+  
+<script src="script.js" type="text/javascript" defer></script>
+</body>
+
+</html>
